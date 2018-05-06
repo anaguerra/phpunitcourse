@@ -33,7 +33,7 @@ jobs:
             - ./vendor
           key: v1-dependencies-{{ checksum "composer.json" }}
 
-      - run: mdkir var/data
+      - run: mkdir var/data
 
 
       # run tests!
